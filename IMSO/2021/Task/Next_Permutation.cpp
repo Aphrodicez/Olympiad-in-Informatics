@@ -3,7 +3,7 @@
 	School	: RYW
 	Lang    : CPP
 	Algo	: Permutation
-	Status	: Untested
+	Status	: Accepted
 */
 
 #include <bits/stdc++.h>
