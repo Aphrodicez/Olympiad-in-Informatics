@@ -1,3 +1,11 @@
+/*
+	Author	: ~Aphrodicez
+	School	: RYW
+	Lang    : CPP
+	Algo	: Brute Force
+	Status	: Accepted
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -16,6 +24,7 @@ int main(){
     cin >> r >> l >> n;
     
     r += l;
+    
     for(int i = 0; i < n; i++){
         cin >> now;
         if(now < l || now > r)

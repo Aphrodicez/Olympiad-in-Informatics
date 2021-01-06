@@ -1,3 +1,11 @@
+/*
+	Author	: ~Aphrodicez
+	School	: RYW
+	Lang    : CPP
+	Algo	: Brute Force
+	Status	: Accepted
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
