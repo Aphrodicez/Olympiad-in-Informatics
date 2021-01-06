@@ -25,6 +25,7 @@ ll calDis(ll now, ll dis){
 }
 
 int main(){
+    setIO();
 
     ll n, k, dis, st, rem;
 

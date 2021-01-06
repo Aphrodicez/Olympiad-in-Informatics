@@ -12,8 +12,11 @@ ll a[150010];
 
 int main(){
     setIO();
+
     ll n, amt, i, ans = 0, cnt = 0;
+    
     cin >> n;
+    
     amt = n/5;
     for(ll i = 1; i <= n; i++){
         cin >> a[i];

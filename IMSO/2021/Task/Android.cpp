@@ -12,8 +12,11 @@ deque <int> deq;
 
 int main(){
     setIO();
+    
     int n, m, mxCapa, nowCapa = 0, now, fro;
+    
     cin >> n >> m >> mxCapa;
+    
     for(int i = 1; i <= n; i++){
         cin >> a[i];
     }
@@ -38,6 +41,7 @@ int main(){
             nowCapa += a[now];
         }
     }
+    
     cout << mxCapa - nowCapa;
     return 0;
 }

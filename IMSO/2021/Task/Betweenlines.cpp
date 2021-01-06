@@ -8,8 +8,11 @@ void setIO(){
 
 int main(){
     setIO();
+
     int n, last, now, win = 1, unx = 1, mac = 1;
+    
     cin >> n;
+
     for(int i = 0; i < n; i++){
         cin >> now;
         if(now==10){
@@ -21,6 +24,7 @@ int main(){
             mac++;
         last = now;
     }
+    
     cout << win << " " << unx << " " << mac << " ";
     return 0;
 }
