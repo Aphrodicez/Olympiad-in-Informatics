@@ -29,7 +29,7 @@
         "key": "f9",
         "command": "workbench.action.terminal.sendSequence",
         "args": { 
-            "text": "g++ -o ${fileBasenameNoExtension}.exe ${fileBasenameNoExtension}.cpp\n"
+            "text": "g++ -std=c++11 -O2 -o ${fileBasenameNoExtension}.exe ${fileBasenameNoExtension}.cpp\n"
         }
     },
     {
