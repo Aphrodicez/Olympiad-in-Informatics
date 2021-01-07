@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        /// Compile multiple files
+        "key": "ctrl+f9",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "g++ -std=c++11 -O2 -o out.exe .\\*.cpp\n"
+        }
+    },
+    {
+        /// Run out.exe [multiple files]
+        "key": "ctrl+f10",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": ".\\out.exe\n"
+        }
+    },
+    {
+        /// Change directory
+        "key": "f8",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "cd ${fileDirname}\n"
+        }
+    },
+    {
+        /// Compile
+        "key": "f9",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { 
+            "text": "g++ -o ${fileBasenameNoExtension}.exe ${fileBasenameNoExtension}.cpp\n"
+        }
+    },
+    {
+        /// Run
+        "key": "f10",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": ".\\${fileBasenameNoExtension}.exe\n"
+        }
+    },
+    {
+        /// Del
+        "key": "ctrl+delete",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\ndel ${fileBasenameNoExtension}.exe\n"
+        }
+    }
+]
