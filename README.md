@@ -1,3 +1,3 @@
 # Olympiad-in-Informatics
-Nmae : Chayanin Kongsareekul<br>
+Name : Chayanin Kongsareekul<br>
 Nickname : Kang
